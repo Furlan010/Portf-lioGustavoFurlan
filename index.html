@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Portfólio — Gustavo Furlan</title>
+  <meta name="description" content="Portfólio de Gustavo Furlan. Estudante de Informática para Internet em Itapetininga. Projetos de web design, interfaces e experiências digitais.">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta property="og:title" content="Portfólio — Gustavo Furlan">
+  <meta property="og:description" content="Design, código e vontade de criar. Conheça meus projetos.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="assets--favicon.svg" type="image/svg+xml">
+  <link href="fonts--fonts.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro-top">
+      <span>GF / 2026</span>
+      <span>DESIGN & WEB</span>
+    </div>
+
+    <div class="intro-center">
+      <span class="intro-kicker">Bem-vindo ao meu portfólio</span>
+
+      <div class="intro-name">
+        <span>Gustavo</span>
+        <span>Furlan<span class="blue">.</span></span>
+      </div>
+
+      <div class="intro-line"></div>
+
+      <div class="intro-progress">
+        <span>DESIGN · CÓDIGO · IDEIAS</span>
+        <span id="intro-percent">0%</span>
+      </div>
+    </div>
+
+    <div class="intro-bottom">
+      <span>ITAPETININGA, SP</span>
+      <button id="skip-intro" tabindex="-1">Pular abertura</button>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Gustavo Furlan, início">
+        <span class="brand-symbol">g<span>f</span></span>
+        <span>Gustavo Furlan<span class="blue">.</span></span>
+      </a>
+
+      <nav aria-label="Navegação principal">
+        <a href="#projetos">Projetos <sup>05</sup></a>
+        <a href="#designs">Designs <sup>03</sup></a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="nav-contact">Vamos conversar</a>
+      </nav>
+
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+      >
+        Menu <span>+</span>
+      </button>
+    </div>
+
+    <nav
+      id="mobile-nav"
+      class="mobile-nav"
+      aria-label="Navegação móvel"
+      hidden
+    >
+      <a href="#projetos">Projetos</a>
+      <a href="#designs">Designs</a>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="small-cross">+</span>
+          DESIGN, CÓDIGO & NOVAS IDEIAS
+        </div>
+
+        <h1>
+          Sites com<br>
+          presença.<br>
+          <span>Detalhes com<br class="desktop-break"> intenção.</span>
+        </h1>
+
+        <p>
+          Sou Gustavo Furlan. Estudo Informática para Internet e
+          transformo o que aprendo em sites com identidade,
+          movimento e atenção a quem vai usar.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button dark" href="#projetos">
+            Conheça meus projetos
+            <span class="button-count">05</span>
+          </a>
+
+          <a class="text-link" href="#sobre">Um pouco sobre mim</a>
+        </div>
+
+        <div class="hero-foot">
+          <span>ITAPETININGA, SP</span>
+          <span>PORTFÓLIO PESSOAL · 2026</span>
+        </div>
+      </div>
+
+      <div class="badge-stage">
+        <div class="stage-label">
+          <span>01 / POR TRÁS DA TELA</span>
+          <span class="blue">É BOM TER VOCÊ AQUI.</span>
+        </div>
+
+        <div class="badge-rig" id="badge-rig">
+          <div class="lanyard" aria-hidden="true">
+            <span>GUSTAVO FURLAN · DESIGN & WEB ·</span>
+          </div>
+
+          <div class="badge-anchor" aria-hidden="true"></div>
+
+          <div class="badge-drag" id="badge-drag">
+            <div class="badge" id="badge">
+              <div class="badge-face badge-front">
+                <div class="badge-top">
+                  <span>GUSTAVO FURLAN</span>
+                  <span class="blue">2026</span>
+                </div>
+
+                <div class="portrait">
+                  <img
+                    src="assets--gustavo.webp"
+                    width="900"
+                    height="1200"
+                    alt="Retrato de Gustavo Furlan"
+                    fetchpriority="high"
+                    draggable="false"
+                  >
+                  <span class="portrait-label">PRAZER, GUSTAVO.</span>
+                </div>
+
+                <div class="badge-name">
+                  Gustavo Furlan<span class="blue">.</span>
+                </div>
+
+                <div class="badge-role">
+                  Estudante · Informática para Internet
+                </div>
+
+                <div class="badge-meta">
+                  <span>ETEC · Itapetininga</span>
+                  <span class="badge-mark">GF</span>
+                </div>
+              </div>
+
+              <div class="badge-face badge-back" aria-hidden="true">
+                <span class="eyebrow">UM POUCO DE MIM</span>
+
+                <strong>
+                  Aprender.<br>
+                  Criar.<br>
+                  Melhorar<span class="blue">.</span>
+                </strong>
+
+                <p>
+                  Gosto de ver uma ideia sair do papel e ganhar vida na
+                  tela. Estou construindo meu caminho com estudo,
+                  prática e vontade de fazer parte de uma equipe.
+                </p>
+
+                <span class="back-sign">Gustavo Furlan</span>
+                <span class="badge-role">
+                  ITAPETININGA, SP · 01.05.2010
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="badge-controls">
+          <span>Segure, arraste e solte.</span>
+          <button id="flip-badge" aria-pressed="false">
+            Virar crachá <span aria-hidden="true">⟳</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider wrap">
+      <span>IDEIAS QUE JÁ GANHARAM FORMA</span>
+      <span>ROLE PARA EXPLORAR <span aria-hidden="true">↓</span></span>
+    </div>
+
+    <section class="projects wrap" id="projetos">
+      <div class="section-heading reveal">
+        <div>
+          <span class="eyebrow blue">01 / PROJETOS SELECIONADOS</span>
+          <h2>Cinco propostas.<br>Um olhar atento.</h2>
+        </div>
+
+        <p>
+          Uma seleção do que venho criando.<br>
+          Explore o visual e experimente cada site.
+        </p>
+      </div>
+
+      <!-- PROJETO 01: HELENA E MATTEO -->
+      <article class="project reveal">
+        <a
+          class="project-cover wedding-cover"
+          href="projetos--casamento--index.html"
+          aria-label="Abrir convite de casamento de Helena e Matteo"
+        >
+          <div class="cover-top">
+            <span>UM CONVITE PARA CELEBRAR</span>
+            <span>ESTUDO AUTORAL / 01</span>
+          </div>
+
+          <div class="browser-window">
+            <div class="browser-bar">
+              <i></i><i></i><i></i>
+              <span>Helena &amp; Matteo · o nosso sim</span>
+            </div>
+
+            <img
+              src="assets--casamento-preview.webp"
+              width="1440"
+              height="1000"
+              alt="Tela do convite de casamento de Helena e Matteo"
+              loading="lazy"
+            >
+          </div>
+
+          <span class="cover-open">Explorar convite</span>
+        </a>
+
+        <div class="project-info">
+          <div>
+            <div class="project-tags">
+              <span>01</span>
+              <span>CONVITE DIGITAL</span>
+              <span>PROJETO FICTÍCIO</span>
+            </div>
+
+            <h3>Helena &amp; Matteo</h3>
+
+            <p>
+              O convite começa antes da primeira palavra. Um envelope
+              interativo abre caminho para a história do casal,
+              a contagem regressiva e os detalhes da celebração.
+            </p>
+          </div>
+
+          <a class="project-link" href="projetos--casamento--index.html">
+            Abrir projeto
+          </a>
+        </div>
+
+        <details class="project-details">
+          <summary>
+            Sobre o projeto <span aria-hidden="true">+</span>
+          </summary>
+
+          <div class="detail-grid">
+            <div>
+              <h4>A proposta</h4>
+              <p>
+                Traduzir a delicadeza de um convite impresso em uma
+                experiência digital para explorar no celular.
+              </p>
+            </div>
+
+            <div>
+              <h4>O que explorar</h4>
+              <p>
+                A abertura do envelope, a navegação pela história,
+                a localização e a confirmação de presença demonstrativa.
+              </p>
+            </div>
+
+            <div>
+              <h4>Contexto</h4>
+              <p>
+                Estudo de portfólio com casal e evento fictícios.
+                O formulário demonstra a interação e não envia
+                confirmações.
+              </p>
+            </div>
+          </div>
+        </details>
+      </article>
+
+      <!-- PROJETO 02: AGROPET -->
+      <article class="project reveal">
+        <a
+          class="project-cover pet-cover"
+          href="projetos--agropet--index.html"
+          aria-label="Abrir projeto Agropet com os dois cachorros"
+        >
+          <div class="cover-top">
+            <span>CUIDADO QUE FAZ PARTE DA FAMÍLIA</span>
+            <span>WEB DESIGN / 02</span>
+          </div>
+
+          <div class="browser-window">
+            <div class="browser-bar">
+              <i></i><i></i><i></i>
+              <span>Agropet · Itapetininga</span>
+            </div>
+
+            <img
+              src="assets--agropet-preview.webp"
+              width="1440"
+              height="1000"
+              alt="Site Agropet com os dois cães Lulu da Pomerânia na abertura"
+              loading="lazy"
+            >
+          </div>
+
+          <span class="cover-open">Explorar site</span>
+        </a>
+
+        <div class="project-info">
+          <div>
+            <div class="project-tags">
+              <span>02</span>
+              <span>COMÉRCIO LOCAL</span>
+              <span>ESTUDO DE PORTFÓLIO</span>
+            </div>
+
+            <h3>Agropet</h3>
+
+            <p>
+              Uma presença digital acolhedora para o universo pet.
+              Os dois cachorros dão personalidade à abertura,
+              com categorias claras e acesso direto às informações
+              da loja.
+            </p>
+          </div>
+
+          <a class="project-link" href="projetos--agropet--index.html">
+            Abrir projeto
+          </a>
+        </div>
+
+        <details class="project-details">
+          <summary>
+            Sobre o projeto <span aria-hidden="true">+</span>
+          </summary>
+
+          <div class="detail-grid">
+            <div>
+              <h4>A proposta</h4>
+              <p>
+                Facilitar a descoberta de produtos e o contato com
+                uma loja de bairro, com uma linguagem visual próxima
+                e acolhedora.
+              </p>
+            </div>
+
+            <div>
+              <h4>O que explorar</h4>
+              <p>
+                A composição com os cachorros, as categorias de produtos,
+                o menu no celular e a seção de localização.
+              </p>
+            </div>
+
+            <div>
+              <h4>Contexto</h4>
+              <p>
+                Apresentação como estudo de portfólio. Os canais da loja
+                pertencem ao projeto original; não representam um
+                trabalho contratado confirmado.
+              </p>
+            </div>
+          </div>
+        </details>
+      </article>
+
+      <!-- PROJETO 03: LÍVIA E THEO -->
+      <article class="project reveal">
+        <a
+          class="project-cover wedding-cover"
+          href="https://furlan010.github.io/casamentoproject2/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Abrir convite de casamento de Lívia e Theo em uma nova aba"
+          style="background:#dce3d7"
+        >
+          <div class="cover-top">
+            <span>UM DOMINGO PARA CELEBRAR</span>
+            <span>CONVITE DIGITAL / 03</span>
+          </div>
+
+          <div
+            class="browser-window"
+            style="position:relative;background:#17251e"
+          >
+            <div class="browser-bar">
+              <i></i><i></i><i></i>
+              <span>Lívia &amp; Theo · 23 de maio de 2027</span>
+            </div>
+
+            <img
+              src="https://furlan010.github.io/casamentoproject2/assets--capa.png"
+              width="1536"
+              height="1024"
+              alt="Imagem da abertura do convite de casamento de Lívia e Theo, com o casal em um jardim"
+              loading="lazy"
+              style="object-position:61% 45%"
+            >
+
+            <div
+              aria-hidden="true"
+              style="
+                position:absolute;
+                inset:28px 0 0;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                padding:7%;
+                background:linear-gradient(
+                  90deg,
+                  rgba(14,23,18,.82),
+                  transparent 85%
+                );
+                color:#f2efe5;
+                pointer-events:none;
+              "
+            >
+              <span
+                style="
+                  font:10px var(--mono);
+                  letter-spacing:.12em;
+                "
+              >
+                CAMPINAS · 23.05.2027
+              </span>
+
+              <span
+                style="
+                  font:clamp(32px,7vw,100px)/1 Georgia,serif;
+                  letter-spacing:-.05em;
+                  margin-top:15px;
+                "
+              >
+                Lívia <i>&amp;</i><br>Theo
+              </span>
+            </div>
+          </div>
+
+          <span class="cover-open">Explorar convite ↗</span>
+        </a>
+
+        <div class="project-info">
+          <div>
+            <div class="project-tags">
+              <span>03</span>
+              <span>CONVITE DIGITAL</span>
+              <span>PROJETO FICTÍCIO</span>
+            </div>
+
+            <h3>Lívia &amp; Theo</h3>
+
+            <p>
+              Um convite em verde e creme, com envelope em tela cheia
+              e uma abertura animada. A experiência reúne a história
+              do casal, programação, mapa e modos claro e escuro.
+            </p>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://furlan010.github.io/casamentoproject2/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Abrir projeto ↗
+          </a>
+        </div>
+
+        <details class="project-details">
+          <summary>
+            Sobre o projeto <span aria-hidden="true">+</span>
+          </summary>
+
+          <div class="detail-grid">
+            <div>
+              <h4>A proposta</h4>
+              <p>
+                Dar ao convite digital o cuidado de uma peça de
+                papelaria e organizar as informações para quem vai
+                acessar pelo celular.
+              </p>
+            </div>
+
+            <div>
+              <h4>O que explorar</h4>
+              <p>
+                O envelope, a animação de abertura, a alternância
+                entre temas, a contagem regressiva e a rota no
+                Google Maps.
+              </p>
+            </div>
+
+            <div>
+              <h4>Contexto</h4>
+              <p>
+                Estudo de portfólio com casal e evento fictícios.
+                O projeto publicado abre em uma nova aba.
+              </p>
+            </div>
+          </div>
+        </details>
+      </article>
+
+      <!-- PROJETO 04: REI DA MESA -->
+<article class="project reveal">
+  <a class="project-cover" href="https://kallebrafael.github.io/JogoBilharETEC/" target="_blank" rel="noopener noreferrer" aria-label="Abrir jogo Rei da Mesa em uma nova aba" style="background:#dce5df">
+    <div class="cover-top"><span>BILHAR NO NAVEGADOR</span><span>PROJETO ESCOLAR / 04</span></div>
+    <div class="browser-window" style="position:relative;background:#101c19">
+      <div class="browser-bar"><i></i><i></i><i></i><span>Rei da Mesa · jogo de bilhar</span></div>
+      <img src="https://kallebrafael.github.io/JogoBilharETEC/assets/backgrounds/lobby-bg-custom.png" width="1600" height="1000" alt="Cenário do menu do jogo de bilhar Rei da Mesa" loading="lazy" style="object-position:center">
+      <div aria-hidden="true" style="position:absolute;inset:28px 0 0;display:grid;place-items:center;background:rgba(8,18,15,.35);pointer-events:none">
+        <img src="https://kallebrafael.github.io/JogoBilharETEC/assets/logo/logo-rei-da-mesa.png" alt="" loading="lazy" style="width:55%;max-width:480px;height:auto">
+      </div>
+    </div>
+    <span class="cover-open">Jogar bilhar ↗</span>
+  </a>
+  <div class="project-info">
+    <div>
+      <div class="project-tags"><span>04</span><span>JOGO INTERATIVO</span><span>PROJETO ESCOLAR</span></div>
+      <h3>Rei da Mesa</h3>
+      <p>Um jogo de bilhar para o navegador, com partidas contra bot ou entre dois jogadores no mesmo dispositivo. A interface reúne níveis de dificuldade, inventário de tacos e histórico de partidas.</p>
+    </div>
+    <a class="project-link" href="https://kallebrafael.github.io/JogoBilharETEC/" target="_blank" rel="noopener noreferrer">Abrir jogo ↗</a>
+  </div>
+  <details class="project-details">
+    <summary>Sobre o projeto <span aria-hidden="true">+</span></summary>
+    <div class="detail-grid">
+      <div><h4>A proposta</h4><p>Organizar uma experiência de jogo em uma interface que conecta escolha de modo, partida e progresso do jogador.</p></div>
+      <div><h4>O que explorar</h4><p>A mesa em Canvas, os controles de mira e potência, as dificuldades do bot e o modo local para dois jogadores.</p></div>
+      <div><h4>Contexto</h4><p>Projeto escolar. As fichas fazem parte da economia fictícia do jogo e não envolvem dinheiro real.</p></div>
+    </div>
+  </details>
+</article>
+
+<!-- PROJETO 05: INFOTEC -->
+<article class="project reveal">
+  <a class="project-cover" href="https://furlan010.github.io/SiteScratchF/" target="_blank" rel="noopener noreferrer" aria-label="Abrir vitrine INFOTEC em uma nova aba" style="background:#e5dff4">
+    <div class="cover-top"><span>ONDE O CÓDIGO VIRA DIVERSÃO</span><span>VITRINE ESCOLAR / 05</span></div>
+    <div class="browser-window" style="background:#f4f0ff">
+      <div class="browser-bar"><i></i><i></i><i></i><span>INFOTEC · jogos Scratch da ETEC</span></div>
+      <div style="position:relative;aspect-ratio:1.65;display:flex;align-items:center;justify-content:space-between;gap:5%;padding:7%;overflow:hidden;background:radial-gradient(circle at 80% 40%,#dccbff,transparent 60%),#f4f0ff">
+        <div style="position:relative;z-index:1">
+          <span style="font:10px var(--mono);color:#6942b6">INFOTEC / SCRATCH</span>
+          <strong style="display:block;font-size:clamp(23px,4.3vw,62px);line-height:1.1;letter-spacing:-.055em;margin-top:14px;color:#272039">Onde o código<br>vira diversão.</strong>
+        </div>
+        <img src="https://kallebrafael.github.io/SiteScratchFETEC/assets/scratch-cat.png" alt="Mascote Scratch usado na vitrine INFOTEC" loading="lazy" style="width:30%;height:auto;object-fit:contain;flex-shrink:0">
+      </div>
+    </div>
+    <span class="cover-open">Explorar jogos ↗</span>
+  </a>
+  <div class="project-info">
+    <div>
+      <div class="project-tags"><span>05</span><span>WEB DESIGN</span><span>PROJETO ESCOLAR</span></div>
+      <h3>INFOTEC — Vitrine Scratch</h3>
+      <p>Uma vitrine interativa dos jogos criados pelos alunos da ETEC. Busca, filtros e destaque para o Guitar Hero com Makey Makey ajudam o visitante a descobrir e experimentar os projetos.</p>
+    </div>
+    <a class="project-link" href="https://furlan010.github.io/SiteScratchF/" target="_blank" rel="noopener noreferrer">Abrir site ↗</a>
+  </div>
+  <details class="project-details">
+    <summary>Sobre o projeto <span aria-hidden="true">+</span></summary>
+    <div class="detail-grid">
+      <div><h4>A proposta</h4><p>Reunir os trabalhos escolares em uma apresentação visual que facilite encontrar e abrir cada jogo.</p></div>
+      <div><h4>O que explorar</h4><p>A busca por nome, os filtros por categoria, a escolha aleatória de jogos, a alternância de tema e a abertura dos jogos em uma janela.</p></div>
+      <div><h4>Contexto</h4><p>Vitrine de projetos escolares. Os jogos exibidos têm seus próprios autores, apresentados no site.</p></div>
+    </div>
+  </details>
+</article>
+<div class="projects-end">
+        <span class="blue">(05 / 05)</span>
+        <p>
+          Cinco projetos para explorar.<br>
+          Os próximos capítulos estão em construção.
+        </p>
+      </div>
+    </section>
+
+    <section class="designs wrap" id="designs">
+      <div class="section-heading reveal">
+        <div>
+          <span class="eyebrow blue">02 / DESIGN NA PRÁTICA</span>
+          <h2>Além do site.<br>A mesma atenção.</h2>
+        </div>
+
+        <p>
+          Três estudos fictícios para situações reais de uma agência.<br>
+          Identidade, redes sociais e apresentação de serviços.
+        </p>
+      </div>
+
+      <div class="design-grid">
+        <article class="design-card reveal">
+          <a href="designs--casa-aurora.html" class="design-art">
+            <img
+              src="designs--casa-aurora-save-the-date.svg"
+              width="1080"
+              height="1350"
+              alt="Save the date em tons de papel e verde, para Isabela e Gabriel"
+              loading="lazy"
+            >
+          </a>
+
+          <span class="eyebrow">01 / PAPELARIA & EVENTOS</span>
+          <h3>Casa Aurora</h3>
+
+          <p>
+            Save the date e programação de casamento. Uma identidade
+            que funciona do convite ao post.
+          </p>
+
+          <a href="designs--casa-aurora.html" class="text-link">
+            Ver as 2 peças
+          </a>
+        </article>
+
+        <article class="design-card reveal">
+          <a href="designs--clube-pet.html" class="design-art">
+            <img
+              src="designs--pet-carrossel-01.svg"
+              width="1080"
+              height="1350"
+              alt="Capa do carrossel Clube Pet com os dois cachorros"
+              loading="lazy"
+            >
+          </a>
+
+          <span class="eyebrow">02 / CONTEÚDO PARA REDES</span>
+          <h3>Clube Pet</h3>
+
+          <p>
+            Carrossel de três telas: uma abertura que chama atenção,
+            conteúdo fácil de ler e convite à conversa.
+          </p>
+
+          <a href="designs--clube-pet.html" class="text-link">
+            Ver as 3 peças
+          </a>
+        </article>
+
+        <article class="design-card reveal">
+          <a href="designs--nexo.html" class="design-art">
+            <img
+              src="designs--nexo-servicos.svg"
+              width="1080"
+              height="1350"
+              alt="Campanha Nexo em azul intenso com tipografia branca"
+              loading="lazy"
+            >
+          </a>
+
+          <span class="eyebrow">03 / APRESENTAÇÃO DE SERVIÇOS</span>
+          <h3>Nexo — Estúdio digital</h3>
+
+          <p>
+            Uma campanha tipográfica para apresentar um estúdio e
+            organizar seus serviços com clareza.
+          </p>
+
+          <a href="designs--nexo.html" class="text-link">
+            Ver as 2 peças
+          </a>
+        </article>
+      </div>
+
+      <p class="design-note">
+        Marcas, casais e campanhas fictícios, criados para este portfólio.
+        Sem clientes ou resultados comerciais atribuídos.
+      </p>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="wrap about-grid">
+        <div class="reveal">
+          <span class="eyebrow blue">03 / ALÉM DOS PIXELS</span>
+
+          <h2>
+            Um olhar curioso.<br>
+            Vontade de<br>
+            fazer acontecer<span class="blue">.</span>
+          </h2>
+
+          <p class="about-lead">
+            Sou Gustavo, tenho 16 anos e moro em Itapetininga.
+            Estou no começo da minha trajetória e gosto de aprender
+            construindo coisas que as pessoas possam ver e usar.
+          </p>
+
+          <p>
+            Entre as aulas e os projetos pessoais, exploro composição,
+            interfaces e desenvolvimento web. Busco uma oportunidade
+            para aprender com uma equipe e contribuir com cuidado,
+            iniciativa e criatividade.
+          </p>
+
+          <a
+            class="text-link"
+            href="https://wa.me/5515991302609?text=Ol%C3%A1%2C%20Gustavo!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20receber%20seu%20curr%C3%ADculo."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Solicitar meu currículo
+          </a>
+        </div>
+
+        <div class="trajectory reveal">
+          <div class="trajectory-row">
+            <span class="row-index">01 / FORMAÇÃO</span>
+            <h3>Informática para Internet</h3>
+            <p>ETEC Darcy Pereira de Moraes</p>
+            <span class="row-note">
+              1º ano técnico · Itapetininga, SP
+            </span>
+          </div>
+
+          <div class="trajectory-row">
+            <span class="row-index">02 / PRIMEIRA EXPERIÊNCIA</span>
+            <h3>Menor Aprendiz</h3>
+            <p>Empório Júnior</p>
+            <span class="row-note">Experiência de 1 mês</span>
+          </div>
+
+          <div class="trajectory-row">
+            <span class="row-index">03 / EM CADA PROJETO</span>
+
+            <p>
+              Tenho interesse em web design, composição visual e
+              interação. Uso ferramentas digitais e IA no processo
+              de criação e estou desenvolvendo minha base em HTML,
+              CSS e JavaScript no curso e nos projetos.
+            </p>
+
+            <div class="value-tags">
+              <span>Organização</span>
+              <span>Criatividade</span>
+              <span>Trabalho em equipe</span>
+              <span>Vontade de aprender</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="design-lab wrap" id="design-lab" hidden>
+      <div>
+        <span class="eyebrow blue">LABORATÓRIO / IA & COMPOSIÇÃO</span>
+        <h2>Uma ideia.<br>Uma primeira direção.</h2>
+
+        <p>
+          Descreva um negócio fictício. A IA sugere texto e cores,
+          e o laboratório monta uma peça tipográfica para você baixar.
+          É um ponto de partida para explorar.
+        </p>
+
+        <form id="lab-form">
+          <label>
+            Sua ideia
+            <textarea
+              name="brief"
+              rows="3"
+              minlength="10"
+              maxlength="600"
+              required
+              placeholder="Ex.: uma sorveteria artesanal, alegre, com tons de pistache e morango."
+            ></textarea>
+          </label>
+
+          <button class="button dark" type="submit">
+            Gerar proposta
+          </button>
+
+          <p id="lab-status" role="status" aria-live="polite"></p>
+
+          <small>
+            O texto será enviado à OpenAI para gerar a proposta.
+            Não inclua dados pessoais. Há limites de uso.
+          </small>
+        </form>
+      </div>
+
+      <div class="lab-preview">
+        <div id="lab-placeholder">
+          DESIGN LAB
+          <span>Sua proposta aparece aqui.</span>
+        </div>
+
+        <img
+          id="lab-result"
+          alt="Proposta de design gerada pelo laboratório"
+          hidden
+        >
+
+        <a
+          id="lab-download"
+          class="button dark"
+          download="minha-proposta.svg"
+          hidden
+        >
+          Baixar SVG
+        </a>
+      </div>
+    </section>
+
+    <section class="contact wrap" id="contato">
+      <div class="reveal">
+        <span class="eyebrow blue">04 / O PRÓXIMO PASSO</span>
+        <h2>Vamos criar<br>uma boa <em>conexão?</em></h2>
+      </div>
+
+      <div class="contact-bottom reveal">
+        <p>
+          Uma oportunidade, um projeto ou uma troca de ideias.<br>
+          Vai ser bom conversar com você.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:furlantd3@gmail.com">
+            <span>E-MAIL</span>
+            <strong>furlantd3@gmail.com</strong>
+          </a>
+
+          <a
+            href="https://wa.me/5515991302609"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>WHATSAPP</span>
+            <strong>(15) 99130-2609</strong>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap" id="message-area" hidden>
+        <div>
+          <h3>Prefere deixar uma mensagem?</h3>
+          <p>
+            Conte sobre a oportunidade ou o projeto.
+            Uso seus dados apenas para responder a este contato.
+          </p>
+        </div>
+
+        <form id="contact-form">
+          <div class="form-row">
+            <label>
+              Seu nome
+              <input
+                name="name"
+                required
+                minlength="2"
+                maxlength="80"
+                autocomplete="name"
+              >
+            </label>
+
+            <label>
+              Seu e-mail
+              <input
+                name="email"
+                type="email"
+                required
+                maxlength="254"
+                autocomplete="email"
+              >
+            </label>
+          </div>
+
+          <label>
+            Mensagem
+            <textarea
+              name="message"
+              required
+              minlength="20"
+              maxlength="4000"
+              rows="4"
+              placeholder="Me conte um pouco sobre o que você tem em mente."
+            ></textarea>
+          </label>
+
+          <div class="honeypot" aria-hidden="true">
+            <label>
+              Seu site
+              <input name="website" tabindex="-1" autocomplete="off">
+            </label>
+          </div>
+
+          <div class="form-bottom">
+            <button class="button dark" type="submit">
+              Enviar mensagem
+            </button>
+            <p id="form-status" role="status" aria-live="polite"></p>
+          </div>
+
+          <small>
+            Ao enviar, você autoriza uma resposta ao e-mail informado.
+            Seus dados não são usados para publicidade.
+          </small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <a
+      href="#inicio"
+      class="brand-symbol"
+      aria-label="Voltar ao início"
+    >
+      g<span>f</span>
+    </a>
+
+    <span>© 2026 GUSTAVO FURLAN</span>
+    <span>ITAPETININGA · <time id="clock">BRASIL</time></span>
+    <button id="replay-intro">Rever abertura</button>
+  </footer>
+
+  <div
+    class="badge-spotlight"
+    id="badge-spotlight"
+    hidden
+    aria-hidden="true"
+  >
+    <div class="spotlight-caption">
+      <span>DO OUTRO LADO DA TELA</span>
+      <strong>Prazer, Gustavo.</strong>
+    </div>
+
+    <button id="skip-spotlight" tabindex="-1">
+      Pular apresentação
+    </button>
+  </div>
+</body>
+</html>
+
